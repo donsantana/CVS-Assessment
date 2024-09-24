@@ -1,0 +1,15 @@
+{
+  "originHash" : "02cf74fe599a82ba0dee6b6ae966d5efe6aeac068467be3fb3c01516042f4d5f",
+  "pins" : [
+    {
+      "identity" : "cvspackage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/donsantana/CVSPackage.git",
+      "state" : {
+        "branch" : "develop",
+        "revision" : "885515f69d12ec47c305c6190e30c124f5492c31"
+      }
+    }
+  ],
+  "version" : 3
+}

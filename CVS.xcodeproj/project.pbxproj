@@ -202,7 +202,7 @@
 			mainGroup = F48EC0862CA215DC00217D93;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				F48EC0BC2CA2209400217D93 /* XCLocalSwiftPackageReference "../CVSAPIService" */,
+				F48EC0CE2CA306B200217D93 /* XCRemoteSwiftPackageReference "CVSPackage" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F48EC0902CA215DC00217D93 /* Products */;
@@ -568,12 +568,16 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		F48EC0BC2CA2209400217D93 /* XCLocalSwiftPackageReference "../CVSAPIService" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../CVSAPIService;
+/* Begin XCRemoteSwiftPackageReference section */
+		F48EC0CE2CA306B200217D93 /* XCRemoteSwiftPackageReference "CVSPackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/donsantana/CVSPackage.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		F48EC0BD2CA2209400217D93 /* CVSAPIService */ = {
